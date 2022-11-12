@@ -1,0 +1,391 @@
+2022-11-12 03:54:50.051  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:54:50.052  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:54:50.319  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:54:50.349  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:54:50.478  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:54:50.479  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:54:50.479  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:54:50.500  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:54:50.500  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 445 ms
+2022-11-12 03:54:50.540  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:54:50.545  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-11-12 03:54:50.603  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-11-12 03:54:50.604  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:54:50.742  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:54:50.742  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:54:50.955  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:54:51.016  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:54:51.065  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:54:51.068  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:54:51.069  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:54:51.070  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:54:51.162  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 1.166 seconds (JVM running for 94.478)
+2022-11-12 03:54:51.164  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:55:58.920  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-11-12 03:55:58.933  INFO 5312 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:55:58.938  INFO 5312 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:55:58.939  INFO 5312 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-12 03:55:58.944  INFO 5312 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-11-12 03:55:59.022  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:55:59.023  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:55:59.234  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:55:59.255  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:55:59.326  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:55:59.327  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:55:59.327  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:55:59.343  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:55:59.343  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 318 ms
+2022-11-12 03:55:59.367  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:55:59.371  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-11-12 03:55:59.425  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-11-12 03:55:59.426  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:55:59.552  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:55:59.553  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:55:59.725  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:55:59.803  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:55:59.850  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:55:59.852  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:55:59.853  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:55:59.856  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:55:59.923  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 0.928 seconds (JVM running for 163.239)
+2022-11-12 03:55:59.925  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:56:17.669  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-12 03:56:17.683  INFO 5312 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:56:17.688  INFO 5312 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:56:17.688  INFO 5312 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-11-12 03:56:17.695  INFO 5312 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-11-12 03:56:17.777  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:56:17.777  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:56:17.978  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:56:18.001  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:56:18.060  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:56:18.061  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:56:18.061  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:56:18.075  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:56:18.076  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 297 ms
+2022-11-12 03:56:18.096  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:56:18.100  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-11-12 03:56:18.162  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-11-12 03:56:18.162  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:56:18.295  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:56:18.296  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:56:18.483  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:56:18.547  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:56:18.608  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:56:18.613  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:56:18.614  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:56:18.616  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:56:18.790  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 1.039 seconds (JVM running for 182.106)
+2022-11-12 03:56:18.793  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:56:48.629  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-11-12 03:56:48.656  INFO 5312 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:56:48.666  INFO 5312 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:56:48.667  INFO 5312 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-11-12 03:56:48.670  INFO 5312 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-11-12 03:56:48.732  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:56:48.734  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:56:48.928  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:56:48.949  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:56:49.015  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:56:49.015  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:56:49.015  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:56:49.037  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:56:49.038  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
+2022-11-12 03:56:49.075  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:56:49.078  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-11-12 03:56:49.140  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-11-12 03:56:49.140  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:56:49.252  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:56:49.252  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:56:49.404  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:56:49.442  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:56:49.478  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:56:49.482  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:56:49.483  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:56:49.483  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:56:49.541  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 0.828 seconds (JVM running for 212.857)
+2022-11-12 03:56:49.543  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:57:05.243  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-12 03:57:05.253  INFO 5312 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:57:05.258  INFO 5312 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:05.259  INFO 5312 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-11-12 03:57:05.261  INFO 5312 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-11-12 03:57:05.332  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:57:05.333  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:57:05.512  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:57:05.533  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:57:05.588  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:57:05.589  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:57:05.589  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:57:05.606  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:57:05.606  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 271 ms
+2022-11-12 03:57:05.626  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:57:05.629  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-11-12 03:57:05.685  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-11-12 03:57:05.688  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:57:05.809  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:57:05.809  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:05.900  WARN 5312 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'exceptionControllerAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.capg.nutrition.utility.ExceptionControllerAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52266c09]
+2022-11-12 03:57:05.901  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:05.901  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-11-12 03:57:05.966  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-11-12 03:57:05.966  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:57:05.971  INFO 5312 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-12 03:57:05.988 ERROR 5312 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'exceptionControllerAdvice': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.capg.nutrition.utility.ExceptionControllerAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52266c09]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.5.jar:2.7.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.5.jar:2.7.5]
+	at com.capg.nutrition.NutritionAppApplication.main(NutritionAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.capg.nutrition.utility.ExceptionControllerAdvice] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@52266c09]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.23.jar:5.3.23]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: InvalidDataException
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.23.jar:5.3.23]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InvalidDataException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.5.jar:2.7.5]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+2022-11-12 03:57:15.614  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:57:15.614  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:57:15.814  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:57:15.843  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:57:15.911  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:57:15.911  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:57:15.911  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:57:15.936  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:57:15.937  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 320 ms
+2022-11-12 03:57:15.973  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:57:15.976  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-11-12 03:57:16.035  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-11-12 03:57:16.036  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:57:16.159  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:57:16.159  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:16.306  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:57:16.348  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:57:16.384  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:57:16.387  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:57:16.388  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:57:16.389  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:57:16.451  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 0.855 seconds (JVM running for 239.766)
+2022-11-12 03:57:16.452  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:57:56.630  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2022-11-12 03:57:56.644  INFO 5312 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:57:56.653  INFO 5312 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:56.654  INFO 5312 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-11-12 03:57:56.655  INFO 5312 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-11-12 03:57:56.727  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:57:56.728  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:57:56.924  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:57:56.948  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:57:57.003  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:57:57.004  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:57:57.004  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:57:57.017  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:57:57.017  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 288 ms
+2022-11-12 03:57:57.038  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:57:57.042  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-11-12 03:57:57.094  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-11-12 03:57:57.095  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:57:57.194  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:57:57.194  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:57:57.395  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:57:57.458  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:57:57.497  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:57:57.499  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:57:57.500  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:57:57.502  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:57:57.562  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 0.853 seconds (JVM running for 280.878)
+2022-11-12 03:57:57.564  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:58:11.183  INFO 5312 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-11-12 03:58:11.213  INFO 5312 --- [Thread-30] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:58:11.222  INFO 5312 --- [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:58:11.222  INFO 5312 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-11-12 03:58:11.224  INFO 5312 --- [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-11-12 03:58:11.290  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 5312 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:58:11.291  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:58:11.471  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:58:11.492  INFO 5312 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:58:11.703  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:58:11.704  INFO 5312 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:58:11.704  INFO 5312 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:58:11.718  INFO 5312 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:58:11.719  INFO 5312 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 425 ms
+2022-11-12 03:58:11.768  INFO 5312 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:58:11.772  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-11-12 03:58:11.828  INFO 5312 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-11-12 03:58:11.828  INFO 5312 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:58:11.936  INFO 5312 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:58:11.936  INFO 5312 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:58:12.387  WARN 5312 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:58:12.563  INFO 5312 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:58:12.689  INFO 5312 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:58:12.692  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:58:12.693  INFO 5312 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:58:12.694  INFO 5312 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:58:12.743  INFO 5312 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 1.468 seconds (JVM running for 296.058)
+2022-11-12 03:58:12.744  INFO 5312 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-12 03:58:33.679  INFO 19712 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 19712 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:58:33.680  INFO 19712 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:58:33.724  INFO 19712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 03:58:33.724  INFO 19712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 03:58:34.472  INFO 19712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:58:34.537  INFO 19712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:58:35.311  INFO 19712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:58:35.322  INFO 19712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:58:35.322  INFO 19712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:58:35.402  INFO 19712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:58:35.403  INFO 19712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1677 ms
+2022-11-12 03:58:35.573  INFO 19712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:58:35.625  INFO 19712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-12 03:58:35.765  INFO 19712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-12 03:58:35.855  INFO 19712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-12 03:58:36.050  INFO 19712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-12 03:58:36.064  INFO 19712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:58:36.737  INFO 19712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:58:36.746  INFO 19712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:58:37.604  WARN 19712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:58:37.954  WARN 19712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-11-12 03:58:38.182  WARN 19712 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-11-12 03:58:38.186  INFO 19712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:58:38.190  INFO 19712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-12 03:58:38.195  INFO 19712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-12 03:58:38.205  INFO 19712 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-12 03:58:38.220  INFO 19712 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-11-12 03:58:38.239 ERROR 19712 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-11-12 03:58:45.381  INFO 22556 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 22556 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 03:58:45.383  INFO 22556 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 03:58:45.429  INFO 22556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 03:58:45.429  INFO 22556 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 03:58:46.115  INFO 22556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 03:58:46.176  INFO 22556 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2022-11-12 03:58:46.933  INFO 22556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 03:58:46.946  INFO 22556 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 03:58:46.946  INFO 22556 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 03:58:47.025  INFO 22556 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 03:58:47.027  INFO 22556 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1597 ms
+2022-11-12 03:58:47.188  INFO 22556 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 03:58:47.232  INFO 22556 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-12 03:58:47.354  INFO 22556 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-12 03:58:47.436  INFO 22556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-12 03:58:47.662  INFO 22556 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-12 03:58:47.680  INFO 22556 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 03:58:48.508  INFO 22556 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 03:58:48.520  INFO 22556 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 03:58:49.411  WARN 22556 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 03:58:49.780  INFO 22556 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 03:58:50.037  INFO 22556 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 03:58:50.044  INFO 22556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 03:58:50.061  INFO 22556 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 03:58:50.071  INFO 22556 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 03:58:50.288  INFO 22556 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 5.379 seconds (JVM running for 5.967)
+2022-11-12 03:58:56.010  INFO 22556 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 03:58:56.010  INFO 22556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-12 03:58:56.012  INFO 22556 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-12 07:07:48.006  INFO 18956 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 18956 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 07:07:48.029  INFO 18956 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 07:07:48.070  INFO 18956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 07:07:48.070  INFO 18956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 07:07:48.866  INFO 18956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 07:07:48.936  INFO 18956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2022-11-12 07:07:49.816  INFO 18956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 07:07:49.830  INFO 18956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 07:07:49.831  INFO 18956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 07:07:49.924  INFO 18956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 07:07:49.925  INFO 18956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1854 ms
+2022-11-12 07:07:50.103  INFO 18956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 07:07:50.168  INFO 18956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-12 07:07:50.355  INFO 18956 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-12 07:07:50.458  INFO 18956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-12 07:07:50.680  INFO 18956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-12 07:07:50.700  INFO 18956 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 07:07:51.533  INFO 18956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 07:07:51.542  INFO 18956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 07:07:52.649  WARN 18956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 07:07:53.158  INFO 18956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 07:07:53.547  INFO 18956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 07:07:53.557  INFO 18956 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-12 07:07:53.576  INFO 18956 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-12 07:07:53.588  INFO 18956 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-12 07:07:53.967  INFO 18956 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Started NutritionAppApplication in 6.348 seconds (JVM running for 6.86)
+2022-11-12 07:08:31.347  INFO 18956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-12 07:08:31.348  INFO 18956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-12 07:08:31.351  INFO 18956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-12 07:11:06.927  WARN 18956 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 23503
+2022-11-12 07:11:06.928 ERROR 18956 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : ERROR: update or delete on table "diet_plan" violates foreign key constraint "fkjn21ad1yyp2c1lmd32e64v5aj" on table "users_table"
+  Detail: Key (id)=(2) is still referenced from table "users_table".
+2022-11-12 07:11:06.933  INFO 18956 --- [http-nio-8080-exec-9] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2022-11-12 07:11:06.954  WARN 18956 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [fkjn21ad1yyp2c1lmd32e64v5aj]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2022-11-12 07:16:58.656  INFO 14332 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : Starting NutritionAppApplication using Java 17.0.4.1 on INLEN8520079904 with PID 14332 (C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp\target\classes started by shsashik in C:\Users\shsashik\Documents\workspace-spring-tool-suite-4-4.16.0.RELEASE\NutritionApp)
+2022-11-12 07:16:58.657  INFO 14332 --- [restartedMain] c.c.nutrition.NutritionAppApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-11-12 07:16:58.706  INFO 14332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-12 07:16:58.706  INFO 14332 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-12 07:16:59.424  INFO 14332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-12 07:16:59.489  INFO 14332 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2022-11-12 07:17:00.384  INFO 14332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-12 07:17:00.396  INFO 14332 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-12 07:17:00.397  INFO 14332 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-12 07:17:00.481  INFO 14332 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-12 07:17:00.482  INFO 14332 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1775 ms
+2022-11-12 07:17:00.678  INFO 14332 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-12 07:17:00.733  INFO 14332 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-12 07:17:00.907  INFO 14332 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-12 07:17:01.010  INFO 14332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-12 07:17:01.344  INFO 14332 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-12 07:17:01.357  INFO 14332 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-12 07:17:02.098  INFO 14332 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-12 07:17:02.103  INFO 14332 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-12 07:17:03.036  WARN 14332 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-12 07:17:03.501  INFO 14332 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-12 07:17:03.905  INFO 14332 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-12 07:17:03.920  INFO 14332 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
